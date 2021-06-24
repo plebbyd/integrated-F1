@@ -26,7 +26,7 @@ f = 1
 The function can be called using these above assigned variables using:
 
 ```
-[penalized_integration_scores, overall_score, pen_nonpen_ratio] = penalized(confidence_vales, F1_scores, f)
+[penalized_integration_scores, overall_score, pen_nonpen_ratio] = penalized(confidence_values, F1_scores, f)
 ```
 
 This will return a list of penalied integration scores for each index, the overall penalized score, and the penalized to non-penalied score ratio.
